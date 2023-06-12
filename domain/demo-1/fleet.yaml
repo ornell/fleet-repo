@@ -1,0 +1,5 @@
+defaultNamespace: demo1
+helm:
+  releaseName: demo1
+  chart: webapp
+  repo: https://mohamedanwer006.github.io/helm-hol/charts
