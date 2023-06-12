@@ -1,0 +1,5 @@
+defaultNamespace: tracetest
+helm:
+  releaseName: tracetest
+  chart: tracetest
+  repo: https://kubeshop.github.io/helm-charts
