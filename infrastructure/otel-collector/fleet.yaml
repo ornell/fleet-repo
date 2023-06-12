@@ -1,5 +1,10 @@
 defaultNamespace: otel
 helm:
   releaseName: otel-collector
-  chart: opentelemetry-demo
+  chart: opentelemetry-collector
   repo: https://open-telemetry.github.io/opentelemetry-helm-charts
+  values:
+    mode: daemonset
+    presets:
+      hostMetrics:
+        enabled: true
