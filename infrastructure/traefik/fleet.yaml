@@ -1,5 +1,5 @@
 defaultNamespace: traefik
 helm:
-  releaseName: traefik
+  releaseName: traefik2
   chart: traefik
   repo: https://helm.traefik.io/traefik
