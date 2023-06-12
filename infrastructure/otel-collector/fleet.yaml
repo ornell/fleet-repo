@@ -1,5 +1,5 @@
 defaultNamespace: otel
 helm:
   releaseName: otel-collector
-  chart: opentelemetry-collector
+  chart: opentelemetry-demo
   repo: https://open-telemetry.github.io/opentelemetry-helm-charts
