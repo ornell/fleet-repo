@@ -5,6 +5,6 @@ helm:
   repo: https://cloudnativeapp.github.io/charts/curated/
   values:
     acceptEula:
-      value: Y
+      value: y
     edition:
       value: Developer
