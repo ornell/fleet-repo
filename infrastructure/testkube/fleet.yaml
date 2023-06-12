@@ -1,0 +1,5 @@
+defaultNamespace: testkube
+helm:
+  releaseName: testkube
+  chart: testkube
+  repo: https://kubeshop.github.io/helm-charts
