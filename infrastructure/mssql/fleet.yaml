@@ -1,0 +1,10 @@
+defaultNamespace: mssql
+helm:
+  releaseName: mssql
+  chart: mssql-linux
+  repo: https://cloudnativeapp.github.io/charts/curated/
+  values:
+    acceptEula:
+      value: Y
+    edition:
+      value: Developer
